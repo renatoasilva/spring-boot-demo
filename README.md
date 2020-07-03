@@ -1,4 +1,4 @@
-#Spring boot demo
+# Spring boot demo
 
 This is a small spring boot 2 project to setup liquibase, postgres that runs in a docker (via docker-compose).
 
