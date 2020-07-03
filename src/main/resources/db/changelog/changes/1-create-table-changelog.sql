@@ -1,0 +1,6 @@
+CREATE TABLE demo_table(
+	id serial PRIMARY KEY,
+	name VARCHAR (256) UNIQUE NOT NULL,
+	age INTEGER NOT NULL,
+	created_on TIMESTAMP NOT NULL DEFAULT now()
+);
