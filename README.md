@@ -4,7 +4,7 @@ This is a small spring boot 2 project to setup liquibase, postgres that runs in 
 
 An custom actuator endpoint is also added just for testing purposes.
 
-#Setup postgres database
+# Setup postgres database
 
 To setup the databse, follow this [article](https://medium.com/analytics-vidhya/getting-started-with-postgresql-using-docker-compose-34d6b808c47c).
 
