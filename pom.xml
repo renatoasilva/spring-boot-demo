@@ -107,6 +107,12 @@
 			<version>7.0.0.Alpha4</version>
 		</dependency>
 
+<!--		https://www.javainuse.com/spring/spring-boot-apache-kafka-hello-world-->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
