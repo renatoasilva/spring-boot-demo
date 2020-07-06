@@ -1,12 +1,14 @@
 package com.example.demo.service;
 
 import com.example.demo.models.MyBean;
+import com.example.demo.repository.MyBeanEntity;
+import java.util.Optional;
 
 public interface IDemoService {
 
     MyBean doSomething();
 
-    void addMyBean(String myString, Integer myInt);
+    MyBeanEntity addMyBean(String myString, Integer myInt);
 
-    MyBean getMyBean(Long id);
+    Optional<MyBean> getMyBean(Long id);
 }
