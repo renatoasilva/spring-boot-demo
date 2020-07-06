@@ -39,3 +39,9 @@ If an `id` is not found, a custom exception called `NotFoundException` is thrown
 ### Use JWT tokens
 
 Setup JWT token following this [article](https://www.javainuse.com/spring/boot-jwt)
+
+## MVC HandlerInterceptor with Spring Boot
+
+Setup HandlerInterceptor following this [article](https://www.javainuse.com/spring/bootInterceptor)
+
+
